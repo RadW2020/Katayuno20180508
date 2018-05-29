@@ -1,13 +1,11 @@
-import { Component } from '@angular/core';
-
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-kata20180529',
+  templateUrl: './kata20180529.component.html',
+  styleUrls: ['./kata20180529.component.css']
 })
-export class AppComponent {
-  title = 'Katayuno with Angular';
+export class Kata20180529Component implements OnInit {
   public card: any; 
 
   constructor() { 
@@ -44,7 +42,6 @@ export class Card{
 
 
 }
-
 
 
 
